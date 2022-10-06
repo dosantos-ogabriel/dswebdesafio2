@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+header {
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(249, 171, 26);
+  padding: 5px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+}
+header ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  padding: 20px;
+  max-width: 640px;
+  background-color: blueviolet;
+}
+
+.side {
+  max-width: 150px;
+  background-color: aqua;
+}
